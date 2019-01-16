@@ -1,6 +1,5 @@
 <?php namespace MattyRad\NounProject;
 
-use MattyRad\NounProject\Request;
 use MattyRad\Support;
 
 abstract class Request
