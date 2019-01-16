@@ -1,10 +1,10 @@
 # The Noun Project PHP Client
 
-![Build Status](https://api.travis-ci.org/MattyRad/noun-project-php-client.png?branch=master) ![Code Coverage](https://img.shields.io/codecov/c/github/mattyrad/noun-project-php-client.svg)
+![Build Status](https://api.travis-ci.org/maglr/noun-project-php-client.png?branch=master) ![Code Coverage](https://img.shields.io/codecov/c/github/maglr/noun-project-php-client.svg)
 
 ## Installation
 
-`composer require mattyrad/noun-project-php-client`
+`composer require maglr/noun-project-php-client`
 
 ## Usage
 
@@ -13,7 +13,7 @@ Pass a `NounProject\Request` to the `NounProject\Client` to receive data from th
 ### Example
 
 ```php
-use MattyRad\NounProject;
+use Maglr\NounProject;
 
 $api = new NounProject\Client($key = 'abc123', $secret= 'xxxx');
 
