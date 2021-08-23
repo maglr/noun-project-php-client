@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "guzzlehttp/guzzle": "~6.0",
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "7.0^",
         "mattyrad/support": "^1.0",
         "guzzlehttp/oauth-subscriber": "^0.3.0"
     },
