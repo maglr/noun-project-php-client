@@ -12,7 +12,6 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "*",
-        "mattyrad/support": "*",
         "guzzlehttp/oauth-subscriber": "*"
     },
     "require-dev": {
@@ -20,11 +19,13 @@
     },
     "autoload": {
         "psr-4": {
+            "MattyRad\\Support\\": "src/",
             "MattyRad\\NounProject\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
+            "MattyRad\\Support\\Test\\": "tests/",
             "MattyRad\\NounProject\\Unit\\Tests\\": "tests/Unit"
         }
     }
