@@ -11,6 +11,7 @@
         }
     ],
     "require": {
+        "php": ">=8.0",
         "guzzlehttp/guzzle": "*",
         "guzzlehttp/oauth-subscriber": "*"
     },
