@@ -21,7 +21,7 @@ class Sample
         bool $bool,
         ?float $float,
         $optional1 = '',
-        \stdClass $optional2 = null
+        ?\stdClass $optional2 = null
     ) {
         $this->array = $array;
         $this->str = $str;

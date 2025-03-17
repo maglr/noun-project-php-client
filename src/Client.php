@@ -11,7 +11,7 @@ class Client
     private $api_secret;
     private $http;
 
-    public function __construct(string $api_key, string $api_secret, HttpClient $http = null)
+    public function __construct(string $api_key, string $api_secret, ?HttpClient $http = null)
     {
         $this->api_key = $api_key;
         $this->api_secret = $api_secret;
